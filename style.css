@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.hero-section {
+    background: url('1.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.hero-section .container {
+    text-align: center;
+}
+
+.about-section {
+    padding: 50px 0;
+}
+
+.menu {
+    padding: 100px 0;
+    color: #fff;
+    background: url('8.webp') no-repeat center center/cover;
+    padding: 50px 0;
+}
+
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-category {
+    flex: 1;
+    margin: 10px;
+}
+
+.menu-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-category li {
+    margin-bottom: 15px;
+}
+
+.orders-section,
+.reservation-section,
+.contact-section,
+.Feedback-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light background color for the box */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.orders-section {
+    text-align: center;
+    background: url(5.jpeg);
+    color: #f8f9fa;
+}
+
+.reservation-section {
+    text-align: center;
+    background: url(reser.jpeg);
+    color: #f1eeee;
+}
+.feedback-section {
+    text-align: center;
+    background: url(fed.jpeg);
+    color: #f58105;
+
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.footer {
+    background-color: #2a1eaa;
+    color: #48aad1;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
